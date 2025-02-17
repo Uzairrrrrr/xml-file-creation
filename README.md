@@ -28,7 +28,7 @@ This Python script generates XML files for courses, chapters, sequentials, and v
 
 ## Example Output
 
-- **Course Folder**: `output/course/sysops_01.xml`
+- **Course Folder**: `output/course/course_run.xml`
 - **Chapter Files**: `output/chapters/UUID.xml`
 - **Sequential Files**: `output/sequentials/UUID.xml`
 - **Vertical Files**: `output/verticals/UUID.xml`
