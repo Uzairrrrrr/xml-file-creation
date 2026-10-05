@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Muhammad Uzair - Resume</title>
+<style>
+  @page { size: A4; margin: 12mm 13mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Calibri", "Carlito", "Liberation Sans", Arial, sans-serif; font-size: 10.2pt; line-height: 1.32; color: #000; background: #fff; }
+  h1 { font-size: 20pt; letter-spacing: 1px; text-align: center; margin: 0; }
+  .headline { text-align: center; font-size: 10.5pt; margin: 2px 0 1px; }
+  .contact { text-align: center; font-size: 9.8pt; margin-bottom: 4px; }
+  .contact a { color: #000; text-decoration: none; }
+  h2 { font-size: 11pt; text-transform: uppercase; margin: 9px 0 3px; padding-bottom: 1px; border-bottom: 1px solid #000; letter-spacing: .4px; }
+  p { margin: 0 0 2px; text-align: justify; }
+  ul { margin: 1px 0 3px; padding-left: 16px; }
+  li { margin: 0 0 1.5px; text-align: justify; }
+  .row { display: flex; justify-content: space-between; gap: 10px; margin-top: 4px; }
+  .row .right { white-space: nowrap; }
+  .skills p { margin-bottom: 2px; }
+  .tech { margin: 0 0 3px; }
+  .sub { font-style: italic; }
+</style>
+</head>
+<body>
+
+<h1>MUHAMMAD UZAIR</h1>
+<div class="headline">Python Full Stack Developer - Django &amp; FastAPI · REST APIs · AI / LLM Integrations</div>
+<div class="contact">
+  Karachi, Pakistan | +92 3XX XXXXXXX | <a href="mailto:uzairawan156@gmail.com">uzairawan156@gmail.com</a> |
+  <a href="https://www.linkedin.com/in/uzair-/">linkedin.com/in/uzair-</a> |
+  <a href="https://github.com/Uzairrrrrr">github.com/Uzairrrrrr</a>
+</div>
+
+<h2>Professional Summary</h2>
+<p>Python Full Stack Developer with 3+ years of experience designing, building, and deploying production web applications, RESTful APIs, and AI-powered services using Python, Django, Django REST Framework, FastAPI, React, and PostgreSQL. At Al-Nafi, built backend services for the Al-Baseer internal analytics platform: payment reconciliation across Stripe, UBL IPG, and Easypaisa, Thinkific LMS webhooks, JWT authentication, Redis caching, and automated report exports to AWS S3. Delivered 10+ client projects end to end (pharma CRM, payroll, e-commerce, CMS, and coupon platforms), from database design to Docker and Gunicorn deployment. Hands-on with LLM integrations (Google Gemini, OpenAI GPT, RAG with Qdrant), OCR and computer vision (Tesseract, OpenCV), web scraping, and data pipelines with Pandas.</p>
+
+<h2>Technical Skills</h2>
+<div class="skills">
+<p><b>Languages:</b> Python, JavaScript, TypeScript, SQL, HTML5, CSS3</p>
+<p><b>Backend &amp; APIs:</b> Django, Django REST Framework (DRF), FastAPI, GraphQL (Strawberry), WebSockets, RESTful API design, JWT authentication (SimpleJWT), OpenAPI/Swagger (drf-spectacular), webhooks, Pydantic</p>
+<p><b>Frontend:</b> React, Next.js, Vue.js, Tailwind CSS, Docusaurus, responsive UI, vanilla JavaScript</p>
+<p><b>Databases &amp; Caching:</b> PostgreSQL, MySQL, SQLite, Redis, SQLAlchemy ORM, Django ORM, Qdrant (vector database), query optimization</p>
+<p><b>AI / ML &amp; Data:</b> Google Gemini API, OpenAI GPT API, LLM agents, Retrieval-Augmented Generation (RAG), prompt engineering, Tesseract OCR, OpenCV, Hugging Face Transformers, Pandas, NumPy, Streamlit</p>
+<p><b>Cloud &amp; DevOps:</b> AWS (S3, boto3, django-storages), Docker, Docker Compose, Gunicorn, WhiteNoise, Heroku, Linux, Git, GitHub, Sentry monitoring</p>
+<p><b>Integrations &amp; Automation:</b> Stripe, Easypaisa, UBL IPG, Thinkific, Open edX (OLX/XML), Selenium, BeautifulSoup, Requests, WeasyPrint (PDF), CSV/XLSX import-export</p>
+<p><b>Testing &amp; Practices:</b> pytest, pytest-django, unit testing, flake8, black, code reviews, Agile/Scrum, technical documentation</p>
+</div>
+
+<h2>Professional Experience</h2>
+
+<div class="row"><div><b>Full Stack Developer (Python / Django)</b> | Al-Nafi</div><div class="right">2023 - Present · Karachi</div></div>
+<ul>
+  <li>Built and maintained RESTful APIs with Django REST Framework for <b>Al-Baseer</b>, Al-Nafi's internal analytics platform, serving users, enrollments, payments, products, and trainers data for Al-Nafi and Islamic Academy.</li>
+  <li>Developed payment search, validation, and reconciliation services across <b>Stripe, UBL IPG, and Easypaisa</b> gateways, including renewal tracking and date-range reporting used by finance and sales teams.</li>
+  <li>Integrated <b>Thinkific webhooks</b> (user and enrollment events) to sync LMS data in real time, eliminating manual data entry between systems.</li>
+  <li>Implemented JWT authentication with secure cookie-based tokens and group-based permission classes to enforce role-based access control (RBAC) across internal APIs.</li>
+  <li>Improved API response times with <b>Redis caching</b> and query optimization on MySQL/PostgreSQL; tracked production errors with <b>Sentry</b>.</li>
+  <li>Automated CSV/XLSX report generation with Pandas and uploaded exports to <b>AWS S3</b> via boto3; added admin import/export and date-range filters for operations staff.</li>
+  <li>Built a Python automation tool that converts CSV course outlines into <b>Open edX OLX XML</b> (course, chapter, sequential, vertical) with UUID-based files, turning hours of manual course setup into a single command.</li>
+  <li>Wrote <b>Selenium</b> automated test scripts for payment flows (debit card, direct deposit, Easypaisa, ePay) to catch checkout regressions before release.</li>
+</ul>
+
+<div class="row"><div><b>Freelance Python Full Stack Developer</b> | Self-Employed</div><div class="right">2024 - Present · Remote</div></div>
+<ul>
+  <li>Delivered 10+ production web applications for clients in pharma, outdoor advertising, retail, e-commerce, and digital media using Django, Tailwind CSS, PostgreSQL, Gunicorn, and WhiteNoise.</li>
+  <li>Built <b>Human 4 Health Pharma CRM</b> with 8 Django apps (doctors and visits, medical representatives, distributors, medical stores, products and batches, sales, HR, analytics), including expiry alerts, performance snapshots, and a CSV import tool with preview and validation.</li>
+  <li>Developed a multi-company <b>Payroll Management System</b> with Pakistan income-tax slabs, provident fund, gratuity, advance deductions, bulk payroll processing, and PDF payslips (WeasyPrint); containerized with Docker on PostgreSQL.</li>
+  <li>Built an e-commerce REST backend (DRF, SimpleJWT) with products, collections, coupons, orders, and reviews, storing media on <b>AWS S3</b> via django-storages.</li>
+  <li>Shipped SEO-focused coupon and blog platforms with real-time community voting, search and filters, CMS-managed content, newsletters, and admin import/export (CSV, XLSX, JSON).</li>
+</ul>
+
+<h2>Custom Projects</h2>
+
+<div class="row"><div><b>AI Flyer Offer Extraction Agent</b> <span class="sub">- LLM / Computer Vision</span></div><div class="right">Private repository</div></div>
+<ul>
+  <li>Built an AI agent that sends retail flyer images to <b>Google Gemini</b> (multimodal) and returns structured JSON of offers, prices, and validity dates through a FastAPI service with async job management and Pydantic validation.</li>
+  <li>Built a companion <b>Flyer Offer Detection API</b> (Django REST Framework, OpenCV, Tesseract) that detects product boxes, runs multi-language OCR (Arabic, English, Urdu, Hindi, French, Spanish) with per-offer confidence scores, and stores cropped offer images; benchmarked <b>DeepSeek-OCR</b> (Hugging Face Transformers) as an alternative.</li>
+</ul>
+<p class="tech"><b>Technologies:</b> Python, FastAPI, Google Gemini API, Django REST Framework, OpenCV, Tesseract OCR, Transformers, Pillow, Pydantic</p>
+
+<div class="row"><div><b>AI-Driven E-Book Platform with RAG Chatbot</b> <span class="sub">- Hackathon</span></div><div class="right"><a href="https://github.com/Uzairrrrrr/hackathon-1" style="color:#000;text-decoration:none">github.com/Uzairrrrrr/hackathon-1</a></div></div>
+<ul>
+  <li>Built an interactive e-book with a <b>RAG chatbot</b>: book content indexed in Qdrant and answered by Gemini, with JWT signup/login, user profiling, AI-personalized content, and cached Urdu translation.</li>
+</ul>
+<p class="tech"><b>Technologies:</b> FastAPI, Google Gemini, Qdrant, SQLAlchemy, JWT, React, TypeScript, Docusaurus, Docker</p>
+
+<div class="row"><div><b>TaskFlow - Real-Time Task Management App</b></div><div class="right"><a href="https://github.com/Uzairrrrrr/taskflow" style="color:#000;text-decoration:none">github.com/Uzairrrrrr/taskflow</a></div></div>
+<ul>
+  <li>Built a full-stack task manager exposing both REST and <b>GraphQL</b> APIs, with <b>WebSocket</b> live updates, JWT authentication, filtering by status, priority, and category, and a statistics dashboard.</li>
+</ul>
+<p class="tech"><b>Technologies:</b> FastAPI, Strawberry GraphQL, WebSockets, SQLAlchemy, Pydantic, React, Tailwind CSS</p>
+
+<div class="row"><div><b>AI Job Description Parser</b></div><div class="right"><a href="https://github.com/Uzairrrrrr/ai-job-parser" style="color:#000;text-decoration:none">github.com/Uzairrrrrr/ai-job-parser</a></div></div>
+<ul>
+  <li>Built an LLM pipeline that reads job listings from CSV and uses the <b>OpenAI GPT API</b> to extract job summaries, key responsibilities, and required skills into a clean, analysis-ready dataset.</li>
+</ul>
+<p class="tech"><b>Technologies:</b> Python, OpenAI API, Pandas, Pydantic, tqdm</p>
+
+<div class="row"><div><b>Academic Paper Data Scraper</b></div><div class="right"><a href="https://github.com/Uzairrrrrr/released-papers-data-scrapper" style="color:#000;text-decoration:none">github.com/Uzairrrrrr/released-papers-data-scrapper</a></div></div>
+<ul>
+  <li>Built a configurable data collection pipeline on the <b>OpenAlex API</b> that gathers 1,000+ papers (2023-2025) with citations, references, and related works, de-duplicates records, and exports CSV and JSON.</li>
+</ul>
+<p class="tech"><b>Technologies:</b> Python, Requests, Pandas, REST APIs, JSON</p>
+
+<h2>Other Projects</h2>
+<ul>
+  <li><b>DRF E-commerce API:</b> nested categories (django-mptt), OpenAPI docs (drf-spectacular), and tests with pytest and pytest-django.</li>
+  <li><b>Recipe API and Django + Vue app:</b> containerized with Docker and Docker Compose, backed by MySQL, with unit tests.</li>
+  <li><b>Streamlit apps:</b> personal library manager (SQLite, Pandas, live stats dashboard) and a game hub; built during the GIAIC program.</li>
+</ul>
+
+<h2>Education</h2>
+<div class="row"><div><b>Bachelor of Computer Science</b> (Graduated) - Federal Urdu University of Arts, Sciences &amp; Technology, Karachi, Pakistan</div><div class="right">Mar 2020 - Mar 2024</div></div>
+<div class="row"><div><b>Intermediate, Pre-Engineering</b> - DJ Sindh Government Science College, Karachi, Pakistan</div><div class="right">Aug 2017 - Jul 2019</div></div>
+
+</body>
+</html>
